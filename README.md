@@ -24,6 +24,33 @@
 - [SOURCES_ANNOTATED.md](./SOURCES_ANNOTATED.md)
 - [ARCHITECTURE_STANDARDS_PATTERNS.md](./ARCHITECTURE_STANDARDS_PATTERNS.md)
 
+## Легенда ранжирования источников
+
+Во всех документах, где есть разметка источников, используются единые теги:
+
+- `tier`
+  - `A` — normative/authoritative (стандарты и официальные регламенты)
+  - `B` — method/canonical practice (признанные методики и каталоги практик)
+  - `C` — evidence/empirical (исследования и эмпирические обзоры)
+  - `D` — contextual/secondary (контекстные и исторические материалы)
+
+- `importance`
+  - `high` — источник опорный для принятия решений
+  - `medium` — значимый, но не единственный для вывода
+  - `supporting` — вспомогательный/поясняющий
+
+- `usage`
+  - `policy` — для формализации правил и governance
+  - `architecture-review` — для архитектурной оценки и trade-off анализа
+  - `delivery` — для практик ежедневной разработки/поставки
+  - `training` — для обучения и выравнивания понятий
+
+- `scope`
+  - `org` — уровень организации
+  - `system` — уровень системы/платформы
+  - `team` — уровень команды/процесса
+  - `code` — уровень кода/компонентов
+
 ## Что внутри (кратко)
 
 ### VIBE_READY_DOD_MASTER.md
