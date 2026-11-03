@@ -2,6 +2,30 @@
 
 Дата подготовки: 2026-11-03
 
+## Схема ранжирования
+
+- `tier`: `A` (normative/authoritative), `B` (method/canonical practice), `C` (evidence/empirical), `D` (contextual/secondary)
+- `importance`: `high` / `medium` / `supporting`
+- `usage`: `policy` / `architecture-review` / `delivery` / `training`
+- `scope`: `org` / `system` / `team` / `code`
+
+## Матрица тегов по источникам
+
+| # | Источник | tier | importance | usage | scope |
+|---|---|---|---|---|---|
+| 1 | Martin Fowler — Vibe Coding | D | high | training | team |
+| 2 | Martin Fowler — The VibeSec Reckoning | D | high | architecture-review | org |
+| 3 | OpenAI Learn — Codex Best Practices | A | high | delivery | team |
+| 4 | OpenAI Cookbook — Iterating Development Workflows with Codex | B | high | delivery | team |
+| 5 | OpenAI PDF — How OpenAI uses Codex | B | medium | training | org |
+| 6 | Anthropic — Claude Code Best Practices | A | high | delivery | team |
+| 7 | OWASP SAMM — Guidance for AI-Assisted Development | A | high | policy | org |
+| 8 | OWASP Cheat Sheet — Secure Coding with AI | A | high | architecture-review | code |
+| 9 | OWASP AISVS Appendix C — AI for Code Generation | A | high | policy | org |
+| 10 | Microsoft VS Code — Best practices for using AI agents | B | medium | delivery | team |
+| 11 | GitHub Docs — Responsible use of Copilot Agents | B | medium | delivery | team |
+| 12 | arXiv — Vibe Coding in Software Development: A Multivocal Literature Review | C | medium | training | org |
+
 ---
 
 ## 1) Martin Fowler — Vibe Coding  

@@ -2,6 +2,35 @@
 
 Дата актуализации: 2026-11-03
 
+## Принцип ранжирования источников
+
+- `tier`: `A` (normative/authoritative), `B` (method/canonical practice), `C` (evidence/empirical), `D` (contextual/secondary)
+- `importance`: `high` / `medium` / `supporting`
+- `usage`: `policy` / `architecture-review` / `delivery` / `training`
+- `scope`: `org` / `system` / `team` / `code`
+
+## Карта источников по рангам
+
+| Блок | Источник | tier | importance | usage | scope |
+|---|---|---|---|---|---|
+| Архитектурные стандарты | ISO/IEC/IEEE 42010 | A | high | policy | org |
+| Архитектурные стандарты | ISO/IEC 25010 | A | high | policy | org |
+| Cloud framework | AWS Well-Architected | A | high | architecture-review | system |
+| Cloud framework | Google Cloud Well-Architected | A | high | architecture-review | system |
+| Cloud patterns | Azure Architecture Center (patterns/antipatterns) | B | high | delivery | system |
+| Документирование | C4 model | B | high | architecture-review | system |
+| Документирование | arc42 | B | high | delivery | team |
+| Документирование | ADR templates | B | high | delivery | team |
+| Оценка компромиссов | ATAM (SEI) | B | high | architecture-review | system |
+| Паттерны | GoF (Design Patterns, 1994) | B | high | training | code |
+| Паттерны | Fowler EAA Catalog | B | high | delivery | system |
+| Паттерны | Enterprise Integration Patterns | B | high | delivery | system |
+| Паттерны | Microservices.io pattern language | B | medium | delivery | system |
+| Антипаттерны | AntiPatterns (Brown et al., 1998) | D | medium | training | team |
+| Антипаттерны | Big Ball of Mud | D | medium | architecture-review | system |
+| Антипаттерны | Microservices anti-patterns taxonomy (arXiv/EuroPLoP) | C | medium | architecture-review | system |
+
+
 ## 1) Базовые архитектурные стандарты и фреймворки
 
 ### 1.1 ISO/IEC/IEEE 42010 (Architecture Description)
